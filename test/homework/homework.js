@@ -1,5 +1,7 @@
 /*
 ZADANI:
+ Kliknout na tlačítko právě když je na něm vyobrazena lištička 🦊 Easy peasy!
+
   1. Jdi na stranku https://automation.cervik.repl.co/findfox.html
   2. DULEZITE: Pockej, az uvidis 🦊 v buttonu. Podivej se na https://webdriver.io/docs/api/element/waitForDisplayed.html
       ⚠️ Doporucuju zvysit timeout a nastavit interval na 30 (jak casto se bude WDIO ptat, jestli je dany element pritomny)
