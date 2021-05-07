@@ -1,5 +1,5 @@
 let loggedPage = {
-  get h1() { return $('.container h1') },
+  get h1() { return $('#logged') },
 }
 
 module.exports = loggedPage
