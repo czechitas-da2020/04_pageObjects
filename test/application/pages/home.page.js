@@ -1,5 +1,5 @@
 let homePage = {
-  baseUrl: 'http://czechitas-app.herokuapp.com',
+  baseUrl: browser.config.baseUrl,
   navbar: {
     get logo() { return $('#logo') },
     get loginButton() { return $("#login")}
@@ -7,7 +7,7 @@ let homePage = {
 
   // function open, just open page :)
   open: function () {
-    browser.url(this.baseUrl)
+    browser.url("/")
   }
 }
 

@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "wdio wdio.conf.js",
-    "test:firefox": "wdio wdio.conf.firefox.js",
-    "install-selenium": "./node_modules/.bin/selenium-standalone install",
-    "start-selenium": "./node_modules/.bin/selenium-standalone start"
+    "test:prod": "wdio wdio.conf.prod.js"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +17,6 @@
     "@wdio/spec-reporter": "^6.4.7",
     "@wdio/sync": "^6.5.0",
     "chromedriver": "^90.0.0",
-    "wdio-chromedriver-service": "^6.0.4",
-    "selenium-standalone": "^6.20.1"
+    "wdio-chromedriver-service": "^6.0.4"
   }
 }
